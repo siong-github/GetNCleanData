@@ -25,14 +25,14 @@ Coursera page: https://class.coursera.org/getdata-016/human_grading/view/courses
 
 The script:
 
-1  combines data from the test and train sets i.e. 
+1.  combines data from the test and train sets i.e. 
 	--* a) X_train with X_test to form X dataframe
 	--* b) y_train with y_test to form y dataframe
 	--* c) subject_train with subject_test to form subject dataframe
 	
-2  Loads data from features.txt into FEATURE dataframe
+2.  Loads data from features.txt into FEATURE dataframe
 
-3  Performs some housekeeping on description of FEATURE dataframe (remove whitespaces, convert "-" to "_", convert "," to "_", remove"()", convert "t" to "time", convert "f" to "freq")
+3.  Performs some housekeeping on description of FEATURE dataframe (remove whitespaces, convert "-" to "_", convert "," to "_", remove"()", convert "t" to "time", convert "f" to "freq")
 
 4  Adds FEATURE dataframe to X dataframe as variable column headers 
 
