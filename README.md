@@ -24,17 +24,17 @@ Further information referenced from http://archive.ics.uci.edu/ml/datasets/Human
 Coursera page: https://class.coursera.org/getdata-016/human_grading/view/courses/973758/assessments/3/submissions.
 
 The script:
-1. combines data from the test and train sets i.e. 
+1 combines data from the test and train sets i.e. 
 	--* a) X_train with X_test to form X dataframe
 	--* b) y_train with y_test to form y dataframe
 	--* c) subject_train with subject_test to form subject dataframe
-2. Loads data from features.txt into FEATURE dataframe
-3. Performs some housekeeping on description of FEATURE dataframe (remove whitespaces, convert "-" to "_", convert "," to "_", remove"()", convert "t" to "time", convert "f" to "freq")
-4. Adds FEATURE dataframe to X dataframe as variable column headers 
-5. Subsets columns which have "mean", "Mean" and "std" in the description
-6. Converts y dataframe from numeric code to character description as referenced in $working_dir/UCI HAR DATASET/activity_labels.txt 
-7. Combines subsetted X dataframe in (5) with subject dataframe and y dataframe to form on Activity dataframe
-8. Calculates the mean of all the variables in the Activity dataframe for each activity and each subject
+2 Loads data from features.txt into FEATURE dataframe
+3 Performs some housekeeping on description of FEATURE dataframe (remove whitespaces, convert "-" to "_", convert "," to "_", remove"()", convert "t" to "time", convert "f" to "freq")
+4 Adds FEATURE dataframe to X dataframe as variable column headers 
+5 Subsets columns which have "mean", "Mean" and "std" in the description
+6 Converts y dataframe from numeric code to character description as referenced in $working_dir/UCI HAR DATASET/activity_labels.txt 
+7 Combines subsetted X dataframe in (5) with subject dataframe and y dataframe to form on Activity dataframe
+8 Calculates the mean of all the variables in the Activity dataframe for each activity and each subject
 
 The output upto step (7) looks like this:
 
