@@ -1,22 +1,22 @@
-GetNCleanData
-=============
+#GetNCleanData
+#=============
 
-Project Submission for Getting and Cleaning Data course
+##Project Submission for Getting and Cleaning Data course
 
-Name: ProjectSubmission.R
+##Name: ProjectSubmission.R
 
-Type: Script for R package
+##Type: Script for R package
 
-Inputs:
-$working_dir/UCI HAR Dataset/test/subject_test.txt
-$working_dir/UCI HAR Dataset/train/subject_train.txt
-$working_dir/UCI HAR Dataset/test/y_test.txt
-$working_dir/UCI HAR Dataset/train/y_train.txt
-$working_dir/UCI HAR Dataset/train/X_train.txt
-$working_dir/UCI HAR Dataset/test/X_test.txt
-$working_dir/UCI HAR Dataset/features.txt
+###Inputs:
+*$working_dir/UCI HAR Dataset/test/subject_test.txt
+*$working_dir/UCI HAR Dataset/train/subject_train.txt
+*$working_dir/UCI HAR Dataset/test/y_test.txt
+*$working_dir/UCI HAR Dataset/train/y_train.txt
+*$working_dir/UCI HAR Dataset/train/X_train.txt
+*$working_dir/UCI HAR Dataset/test/X_test.txt
+*$working_dir/UCI HAR Dataset/features.txt
 
-Output:
+###Output:
 Tidy dataset of means of means and standar deviations grouped by Subject ID and Activity type.
 
 Function:
