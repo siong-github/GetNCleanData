@@ -50,7 +50,6 @@ The output upto step (7) looks like this:
 |	FEATURES	                |
 |:-----------------------------:|:-----:|
 |	X-train			|y-train|
-|:-----------------------------:|:-----:|
 |	X-test			|y-test |
 
 (REFERENCE:https://class.coursera.org/getdata-016/forum/thread?thread_id=50#comment-333)
