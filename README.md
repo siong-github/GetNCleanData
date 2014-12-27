@@ -24,6 +24,7 @@ Further information referenced from http://archive.ics.uci.edu/ml/datasets/Human
 Coursera page: https://class.coursera.org/getdata-016/human_grading/view/courses/973758/assessments/3/submissions.
 
 The script:
+
 1 combines data from the test and train sets i.e. 
 	--* a) X_train with X_test to form X dataframe
 	--* b) y_train with y_test to form y dataframe
