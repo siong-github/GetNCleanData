@@ -46,11 +46,11 @@ The script:
 
 The output upto step (7) looks like this:
 
-|:-----------------------------:|:-----:|
-|	FEATURES                |       |	                |
-|:-----------------------------:|:-----:|
-|	X-train			|y-train|
-|	X-test			|y-test |
+
+|	FEATURES                | Activity      | Subject |
+|:-----------------------------:|:-----:|:--------:|
+|	X-train			|y-train| subject id|
+|	X-test			|y-test |subject id|
 
 (REFERENCE:https://class.coursera.org/getdata-016/forum/thread?thread_id=50#comment-333)
 
