@@ -47,7 +47,7 @@ The script:
 The output upto step (7) looks like this:
 
 |:-----------------------------:|:-----:|
-|	FEATURES	                |
+|	FEATURES                |       |	                |
 |:-----------------------------:|:-----:|
 |	X-train			|y-train|
 |	X-test			|y-test |
