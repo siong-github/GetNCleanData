@@ -1,4 +1,4 @@
-Activity
+1.  Activity
 	Activity Type
 		WALKING
 		WALKING_UPSTAIRS
@@ -6,21 +6,21 @@ Activity
 		SITTING
 		STANDING
 		LAYING
-Subject
+2.  Subject
 	Subject ID
 	1..30 (numeric)
 
-timeBodyAcc_mean_X
+3.  timeBodyAcc_mean_X
 	mean of time domain acceleration mean in X-axis (numeric)
-timeBodyAcc_mean_Y
+4.  timeBodyAcc_mean_Y
 	mean of time domain acceleration mean in Y-axis (numeric)
-timeBodyAcc_mean_Z
+4.  timeBodyAcc_mean_Z
 	mean of time domain acceleration mean in Z-axis (numeric)
-timeBodyAcc_std_X
+4.  timeBodyAcc_std_X
 	mean of time domain acceleration standard deviation in X-axis (numeric)
-timeBodyAcc_std_Y
+4.  timeBodyAcc_std_Y
 	mean of time domain acceleration standard deviation in Y-axis (numeric)
-timeBodyAcc_std_Z
+4.  timeBodyAcc_std_Z
 	mean of time domain acceleration standard deviation in Z-axis (numeric)
 timeGravityAcc_mean_X
 	mean of time domain gravity acceleration mean in X-axis (numeric)
