@@ -1,14 +1,14 @@
 1.  Activity
-	*Activity Type
-	*WALKING
-	*WALKING_UPSTAIRS
-	*WALKING_DOWNSTAIRS
-	*SITTING
-	*STANDING
-	*LAYING
+	*  Activity Type
+	*  WALKING
+	*  WALKING_UPSTAIRS
+	*  WALKING_DOWNSTAIRS
+	*  SITTING
+	*  STANDING
+	*  LAYING
 2.  Subject
-	*Subject ID
-	*1..30 (numeric)
+	*  Subject ID
+	*  1..30 (numeric)
 
 3.  timeBodyAcc_mean_X
 	mean of time domain acceleration mean in X-axis (numeric)
