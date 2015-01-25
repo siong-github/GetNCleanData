@@ -1,3 +1,4 @@
+#Updated for Jan 2015 session
 #Load data into data frame and combine
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", sep=" ",header=FALSE)
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", sep=" ",header=FALSE)
