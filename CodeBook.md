@@ -1,5 +1,5 @@
 1.  Activity
-	*  Activity Type
+	*  ACTIVITY TYPE
 	*  WALKING
 	*  WALKING_UPSTAIRS
 	*  WALKING_DOWNSTAIRS
